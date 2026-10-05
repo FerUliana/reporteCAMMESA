@@ -1,0 +1,41 @@
+# Guardar este archivo como: .github/workflows/extraer_arauco.yml
+# (la carpeta .github/workflows es la que GitHub reconoce automáticamente)
+
+name: Extraer producción Arauco (CAMMESA)
+
+on:
+  schedule:
+    # 23:00 UTC = 20:00 hora Argentina (ART es UTC-3 todo el año, sin horario de verano)
+    - cron: "0 23 * * *"
+  workflow_dispatch: {}   # permite también correrlo manualmente desde la pestaña "Actions" de GitHub
+
+permissions:
+  contents: write   # necesario para que el workflow pueda commitear el JSON actualizado
+
+jobs:
+  extraer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Extraer mes en curso
+        run: |
+          MES=$(date +%Y-%m)
+          mkdir -p data
+          python extraer_produccion_arauco.py "$MES" --mes
+          mv "produccion_arauco_${MES}.json" "data/produccion_arauco_${MES}.json"
+
+      - name: Commitear datos actualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "Actualizar datos $(date +%Y-%m)"
+          git push
