@@ -3,7 +3,9 @@
   "dias_procesados": [
     "2026-10-01",
     "2026-10-02",
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05"
   ],
   "parques": {
     "PEA": {
@@ -11,9 +13,9 @@
         "ARAUEO",
         "ARA2EO"
       ],
-      "produccion_mensual_mwh": 1702.11,
+      "produccion_mensual_mwh": 2911.4,
       "potencia_instalada_mw": 50.4,
-      "factor_planta_mensual": 0.4691,
+      "factor_planta_mensual": 0.4814,
       "diario": [
         {
           "fecha": "2026-10-01",
@@ -26,6 +28,14 @@
         {
           "fecha": "2026-10-03",
           "produccion_mwh": 395.36
+        },
+        {
+          "fecha": "2026-10-04",
+          "produccion_mwh": 819.22
+        },
+        {
+          "fecha": "2026-10-05",
+          "produccion_mwh": 390.07
         }
       ]
     },
@@ -33,9 +43,9 @@
       "maquinas": [
         "AR21EO"
       ],
-      "produccion_mensual_mwh": 3547.27,
+      "produccion_mensual_mwh": 5801.66,
       "potencia_instalada_mw": 99.75,
-      "factor_planta_mensual": 0.4939,
+      "factor_planta_mensual": 0.4847,
       "diario": [
         {
           "fecha": "2026-10-01",
@@ -48,6 +58,14 @@
         {
           "fecha": "2026-10-03",
           "produccion_mwh": 1016.85
+        },
+        {
+          "fecha": "2026-10-04",
+          "produccion_mwh": 1574.87
+        },
+        {
+          "fecha": "2026-10-05",
+          "produccion_mwh": 679.52
         }
       ]
     },
@@ -55,9 +73,9 @@
       "maquinas": [
         "AR22EO"
       ],
-      "produccion_mensual_mwh": 3997.57,
+      "produccion_mensual_mwh": 6563.12,
       "potencia_instalada_mw": 99.4,
-      "factor_planta_mensual": 0.5586,
+      "factor_planta_mensual": 0.5502,
       "diario": [
         {
           "fecha": "2026-10-01",
@@ -70,6 +88,14 @@
         {
           "fecha": "2026-10-03",
           "produccion_mwh": 975.41
+        },
+        {
+          "fecha": "2026-10-04",
+          "produccion_mwh": 1849.82
+        },
+        {
+          "fecha": "2026-10-05",
+          "produccion_mwh": 715.73
         }
       ]
     }
