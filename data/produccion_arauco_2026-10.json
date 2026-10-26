@@ -22,7 +22,9 @@
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-23"
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24"
   ],
   "parques": {
     "PEA": {
@@ -30,9 +32,9 @@
         "ARAUEO",
         "ARA2EO"
       ],
-      "produccion_mensual_mwh": 14379.31,
+      "produccion_mensual_mwh": 15997.9,
       "potencia_instalada_mw": 50.4,
-      "factor_planta_mensual": 0.5403,
+      "factor_planta_mensual": 0.5511,
       "diario": [
         {
           "fecha": "2026-10-01",
@@ -119,8 +121,16 @@
           "produccion_mwh": 513.61
         },
         {
-          "fecha": "2026-10-23",
+          "fecha": "2026-10-22",
           "produccion_mwh": 685.99
+        },
+        {
+          "fecha": "2026-10-23",
+          "produccion_mwh": 970.89
+        },
+        {
+          "fecha": "2026-10-24",
+          "produccion_mwh": 647.7
         }
       ]
     },
@@ -128,9 +138,9 @@
       "maquinas": [
         "AR21EO"
       ],
-      "produccion_mensual_mwh": 29018.05,
+      "produccion_mensual_mwh": 33110.4,
       "potencia_instalada_mw": 99.75,
-      "factor_planta_mensual": 0.551,
+      "factor_planta_mensual": 0.5763,
       "diario": [
         {
           "fecha": "2026-10-01",
@@ -217,8 +227,16 @@
           "produccion_mwh": 940.31
         },
         {
-          "fecha": "2026-10-23",
+          "fecha": "2026-10-22",
           "produccion_mwh": 1332.1
+        },
+        {
+          "fecha": "2026-10-23",
+          "produccion_mwh": 2080.07
+        },
+        {
+          "fecha": "2026-10-24",
+          "produccion_mwh": 2012.28
         }
       ]
     },
@@ -226,9 +244,9 @@
       "maquinas": [
         "AR22EO"
       ],
-      "produccion_mensual_mwh": 33845.57,
+      "produccion_mensual_mwh": 38214.95,
       "potencia_instalada_mw": 99.4,
-      "factor_planta_mensual": 0.6449,
+      "factor_planta_mensual": 0.6675,
       "diario": [
         {
           "fecha": "2026-10-01",
@@ -315,8 +333,16 @@
           "produccion_mwh": 1046.1
         },
         {
-          "fecha": "2026-10-23",
+          "fecha": "2026-10-22",
           "produccion_mwh": 1576.89
+        },
+        {
+          "fecha": "2026-10-23",
+          "produccion_mwh": 2353.17
+        },
+        {
+          "fecha": "2026-10-24",
+          "produccion_mwh": 2016.21
         }
       ]
     }
