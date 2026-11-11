@@ -5,7 +5,11 @@
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
   ],
   "parques": {
     "PEA": {
@@ -13,9 +17,9 @@
         "ARAUEO",
         "ARA2EO"
       ],
-      "produccion_mensual_mwh": 3499.71,
+      "produccion_mensual_mwh": 5320.0,
       "potencia_instalada_mw": 50.4,
-      "factor_planta_mensual": 0.5787,
+      "factor_planta_mensual": 0.4887,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -36,6 +40,22 @@
         {
           "fecha": "2026-11-05",
           "produccion_mwh": 490.51
+        },
+        {
+          "fecha": "2026-11-06",
+          "produccion_mwh": 463.35
+        },
+        {
+          "fecha": "2026-11-07",
+          "produccion_mwh": 502.96
+        },
+        {
+          "fecha": "2026-11-08",
+          "produccion_mwh": 302.1
+        },
+        {
+          "fecha": "2026-11-09",
+          "produccion_mwh": 551.88
         }
       ]
     },
@@ -43,9 +63,9 @@
       "maquinas": [
         "AR21EO"
       ],
-      "produccion_mensual_mwh": 7473.47,
+      "produccion_mensual_mwh": 11397.65,
       "potencia_instalada_mw": 99.75,
-      "factor_planta_mensual": 0.6244,
+      "factor_planta_mensual": 0.529,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -66,6 +86,22 @@
         {
           "fecha": "2026-11-05",
           "produccion_mwh": 859.34
+        },
+        {
+          "fecha": "2026-11-06",
+          "produccion_mwh": 1045.98
+        },
+        {
+          "fecha": "2026-11-07",
+          "produccion_mwh": 1235.04
+        },
+        {
+          "fecha": "2026-11-08",
+          "produccion_mwh": 581.12
+        },
+        {
+          "fecha": "2026-11-09",
+          "produccion_mwh": 1062.04
         }
       ]
     },
@@ -73,9 +109,9 @@
       "maquinas": [
         "AR22EO"
       ],
-      "produccion_mensual_mwh": 8285.45,
+      "produccion_mensual_mwh": 12482.12,
       "potencia_instalada_mw": 99.4,
-      "factor_planta_mensual": 0.6946,
+      "factor_planta_mensual": 0.5814,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -96,6 +132,22 @@
         {
           "fecha": "2026-11-05",
           "produccion_mwh": 997.9
+        },
+        {
+          "fecha": "2026-11-06",
+          "produccion_mwh": 1097.19
+        },
+        {
+          "fecha": "2026-11-07",
+          "produccion_mwh": 1344.3
+        },
+        {
+          "fecha": "2026-11-08",
+          "produccion_mwh": 504.03
+        },
+        {
+          "fecha": "2026-11-09",
+          "produccion_mwh": 1251.15
         }
       ]
     }
