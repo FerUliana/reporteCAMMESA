@@ -9,7 +9,8 @@
     "2026-11-06",
     "2026-11-07",
     "2026-11-08",
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-10"
   ],
   "parques": {
     "PEA": {
@@ -17,9 +18,9 @@
         "ARAUEO",
         "ARA2EO"
       ],
-      "produccion_mensual_mwh": 5320.0,
+      "produccion_mensual_mwh": 5829.23,
       "potencia_instalada_mw": 50.4,
-      "factor_planta_mensual": 0.4887,
+      "factor_planta_mensual": 0.4819,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -56,6 +57,10 @@
         {
           "fecha": "2026-11-09",
           "produccion_mwh": 551.88
+        },
+        {
+          "fecha": "2026-11-10",
+          "produccion_mwh": 509.23
         }
       ]
     },
@@ -63,9 +68,9 @@
       "maquinas": [
         "AR21EO"
       ],
-      "produccion_mensual_mwh": 11397.65,
+      "produccion_mensual_mwh": 12503.15,
       "potencia_instalada_mw": 99.75,
-      "factor_planta_mensual": 0.529,
+      "factor_planta_mensual": 0.5223,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -102,6 +107,10 @@
         {
           "fecha": "2026-11-09",
           "produccion_mwh": 1062.04
+        },
+        {
+          "fecha": "2026-11-10",
+          "produccion_mwh": 1105.5
         }
       ]
     },
@@ -109,9 +118,9 @@
       "maquinas": [
         "AR22EO"
       ],
-      "produccion_mensual_mwh": 12482.12,
+      "produccion_mensual_mwh": 13572.42,
       "potencia_instalada_mw": 99.4,
-      "factor_planta_mensual": 0.5814,
+      "factor_planta_mensual": 0.5689,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -148,6 +157,10 @@
         {
           "fecha": "2026-11-09",
           "produccion_mwh": 1251.15
+        },
+        {
+          "fecha": "2026-11-10",
+          "produccion_mwh": 1090.3
         }
       ]
     }
