@@ -13,8 +13,10 @@
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
+    "2026-11-13",
     "2026-11-14",
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-16"
   ],
   "parques": {
     "PEA": {
@@ -22,9 +24,9 @@
         "ARAUEO",
         "ARA2EO"
       ],
-      "produccion_mensual_mwh": 7195.08,
+      "produccion_mensual_mwh": 8023.6,
       "potencia_instalada_mw": 50.4,
-      "factor_planta_mensual": 0.4249,
+      "factor_planta_mensual": 0.4146,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -75,12 +77,20 @@
           "produccion_mwh": 299.3
         },
         {
+          "fecha": "2026-11-13",
+          "produccion_mwh": 346.88
+        },
+        {
           "fecha": "2026-11-14",
           "produccion_mwh": 353.84
         },
         {
           "fecha": "2026-11-15",
           "produccion_mwh": 309.44
+        },
+        {
+          "fecha": "2026-11-16",
+          "produccion_mwh": 481.64
         }
       ]
     },
@@ -88,9 +98,9 @@
       "maquinas": [
         "AR21EO"
       ],
-      "produccion_mensual_mwh": 15152.06,
+      "produccion_mensual_mwh": 16727.92,
       "potencia_instalada_mw": 99.75,
-      "factor_planta_mensual": 0.4521,
+      "factor_planta_mensual": 0.4367,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -141,12 +151,20 @@
           "produccion_mwh": 582.94
         },
         {
+          "fecha": "2026-11-13",
+          "produccion_mwh": 626.12
+        },
+        {
           "fecha": "2026-11-14",
           "produccion_mwh": 636.41
         },
         {
           "fecha": "2026-11-15",
           "produccion_mwh": 641.21
+        },
+        {
+          "fecha": "2026-11-16",
+          "produccion_mwh": 949.74
         }
       ]
     },
@@ -154,9 +172,9 @@
       "maquinas": [
         "AR22EO"
       ],
-      "produccion_mensual_mwh": 16676.82,
+      "produccion_mensual_mwh": 18837.71,
       "potencia_instalada_mw": 99.4,
-      "factor_planta_mensual": 0.4993,
+      "factor_planta_mensual": 0.4935,
       "diario": [
         {
           "fecha": "2026-11-01",
@@ -207,12 +225,20 @@
           "produccion_mwh": 692.11
         },
         {
+          "fecha": "2026-11-13",
+          "produccion_mwh": 920.79
+        },
+        {
           "fecha": "2026-11-14",
           "produccion_mwh": 831.56
         },
         {
           "fecha": "2026-11-15",
           "produccion_mwh": 676.13
+        },
+        {
+          "fecha": "2026-11-16",
+          "produccion_mwh": 1240.1
         }
       ]
     }
